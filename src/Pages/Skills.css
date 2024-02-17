@@ -1,0 +1,71 @@
+/* Skills.css */
+
+/* General styles */
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 100%));
+  gap: 2rem;
+  transition: border 0.2s; /* Adding transition effect to the border */
+}
+
+.inside {
+  height: 100%;
+  width: 100%;
+  transition: width 0.3s, height 0.3s; /* Adding transition effect to width and height */
+}
+
+.card {
+  padding: 1rem;
+  width: 50%;
+  display:flex;
+flex-wrap: wrap;
+  flex-direction: column;
+ margin-left:7rem;
+}
+
+.card-body {
+ 
+  text-align: center;
+  border: .0025rem solid rgb(29, 151, 29);
+}
+
+.card-title {
+  color: rgb(87, 141, 207);
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  color: rgb(126, 55, 55);
+}
+
+/* Media Queries */
+
+/* For smaller screens, adjust the layout */
+@media (max-width: 768px) {
+  .box {
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    gap: 1rem;
+  }
+  
+}
+@media(max-width:1024px){
+  .card-body {
+    width:auto;
+    text-align: center;
+    border: .0025rem solid rgb(29, 151, 29);
+  }
+};
+@media(min-width:200px){
+  .card-body {
+   
+    border: none;
+  }
+};
+  
+
+/* Add more media queries as needed for different screen sizes */
