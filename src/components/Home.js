@@ -24,7 +24,7 @@ const Home = () => {
           </p>
           <div>
             <a
-              href={process.env.PUBLIC_URL + '/jasmita.pdf'}
+              href={process.env.PUBLIC_URL + '/piyush.pdf'}
               target="_blank"
               rel="noopener noreferrer"
               className="group text-white w-fit  my-2 px-4 py-3 mx-auto flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 hover:scale-125 duration-200"
