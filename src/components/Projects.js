@@ -46,14 +46,14 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="w-full  h-[100vh] bg-gradient-to-b from-black via-black to-black-800 text-white md:h-full"
+      className="w-full  bg-gradient-to-b from-black via-black to-black-800 text-white md:h-full"
     >
-      <div className="max-w-screen-lg p-4 mx-auto flex flex-col w-full h-full justify-center ">
+      <div className="max-w-screen-lg p-4 mx-auto my-auto flex flex-col w-full h-full justify-center ">
         <div>
           <p className="text-4xl mt-16 font-bold  border-b-4 border-gray-500 p-2 inline my-8">
             Projects
           </p>
-          <p className="py-6">Here are some of my major projects</p>
+          <p className="py-16">Here are some of my major projects</p>
         </div>
         <div className="w-full h-[100vh]  mt-16 grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-8 py-12 sm:px-0">
           {projectData.map(({ id, src, href, details,l }) => (
