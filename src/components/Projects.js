@@ -5,7 +5,7 @@ const projectData = [
   {
     id: 1,
     // 
-    src:"/cryptofrontdashboard.jpg",
+    src:"/cryptofrontdashboard.png",
     l: "https://github.com/Piyush0924/cryptofrontdashboard",
     href: "https://cryptofrontdashboard.vercel.app/",
     details: "This is a Crypto currency dashboard project that shows price charts, calculates exchange rates, and displays a list of top cryptocurrencies according to their market cap. It is created with React and Redux JavaScript libraries, styled components, and utilizes CoinGecko's API for information.",
@@ -20,7 +20,7 @@ const projectData = [
   }, {
     id: 3,
     // the entertainment app
-    src:"/TheEntertainmentApp.jpg",
+    src:"/TheEntertainmentApp.png",
     l: "https://github.com/Piyush0924/The-Entertainment-App",
     href: "https://mirajshow.netlify.app/",
   
