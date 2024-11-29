@@ -55,7 +55,7 @@ const Projects = () => {
           </p>
           <p className="py-6">Here are some of my major projects</p>
         </div>
-        <div className="w-full h-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-8 py-12 sm:px-0">
+        <div className="w-full h-[100vh]  mt-16 grid grid-cols-2 sm:grid-cols-3 gap-8 text-center px-8 py-12 sm:px-0">
           {projectData.map(({ id, src, href, details,l }) => (
             <div
               key={id}
