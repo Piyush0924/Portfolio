@@ -26,13 +26,13 @@ const projectData = [
   
     details: "The Entertainment App is designed for movie and TV lovers to easily find and save their favorite content. **Why is it useful?** It helps users quickly discover new shows and movies, streamlining their search for great entertainment. **How is it useful?** With an easy-to-use interface, it allows users to bookmark their favorites and get personalized recommendations, making their viewing experience smoother and more enjoyable"
   }, 
-  // {
-  //   id: 4,
-  //   src:"/E-commerce",
-  //   l: "https://github.com/sumit-nagrikar/cinebuzz.git",
-  //   href: "https://cinebuzzz.netlify.app/",
-  //   details: "Our project, CineBuzz, addresses these issues by providing a modern, user-friendly platform where users can easily browse movies, check showtimes, and book tickets online.",
-  // },
+  {
+    id: 4,
+    src:"/E-commerce",
+    l: "https://github.com/sumit-nagrikar/cinebuzz.git",
+    href: "https://cinebuzzz.netlify.app/",
+    details: "Our project, CineBuzz, addresses these issues by providing a modern, user-friendly platform where users can easily browse movies, check showtimes, and book tickets online.",
+  },
  
 ];
 
