@@ -22,7 +22,7 @@ const projectData = [
     // the entertainment app
     src:"/TheEntertainmentApp.png",
     l: "https://github.com/Piyush0924/The-Entertainment-App",
-    href: "https://mirajshow.netlify.app/",
+    href: "https://mirajshow.netlify.app/home",
   
     details: "The Entertainment App is designed for movie and TV lovers to easily find and save their favorite content. **Why is it useful?** It helps users quickly discover new shows and movies, streamlining their search for great entertainment. **How is it useful?** With an easy-to-use interface, it allows users to bookmark their favorites and get personalized recommendations, making their viewing experience smoother and more enjoyable"
   }, 
