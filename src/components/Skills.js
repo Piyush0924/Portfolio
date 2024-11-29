@@ -96,7 +96,7 @@ const Skills = () => {
             <div
               key={id}
               className={
-                "flex items-center justify-center w-16 h-16 shadow-md hover:scale-125 duration-500 py-2 rounded-sm border-black" +
+                "flex items-center justify-center w-8 h-8 shadow-md hover:scale-125 duration-500 py-2 rounded-sm border-black" +
                 " " +
                 style
               }
