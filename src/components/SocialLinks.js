@@ -29,7 +29,7 @@ const links = [
         Mail <HiOutlineMail size={30} />
       </>
     ),
-    href: " pakmodepiyush0924@gmail.com ",
+    href: " mailto:pakmodepiyush0924@gmail.com ",
   }
 ];
 
