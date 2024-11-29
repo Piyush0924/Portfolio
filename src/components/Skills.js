@@ -82,11 +82,11 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="w-full h-full mt-8 bg-gradient-to-b from-black via-black bg-[#7c9da6] "
+      className="w-full h-full bg-gradient-to-b from-black via-black bg-[#7c9da6] "
     >
       <div className="max-w-screen-lg py-4 mx-auto flex flex-col justify-center w-full h-full text-white">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline my-4">
+          <p className="text-4xl mt-16 font-bold border-b-4 border-gray-500 p-2 inline my-4">
             Skills
           </p>
         </div>
