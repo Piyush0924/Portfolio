@@ -22,7 +22,7 @@ const Skills = () => {
       className="w-full min-h-screen bg-gradient-to-b from-black to-gray-900 flex justify-center items-center py-16"
     >
       <div className="max-w-screen-xl mx-auto flex flex-col items-center text-white">
-        <div className="mt-20">
+        <div className="mt-12">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
