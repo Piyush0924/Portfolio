@@ -27,7 +27,7 @@ const projectData = [
   },
   {
     id: 4,
-    src: "/ecommerce",
+    src: "/ecommerce.png",
     l: "https://github.com/Piyush0924/E-commerce",
     href: "https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app",
     details:
