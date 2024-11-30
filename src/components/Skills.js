@@ -19,20 +19,20 @@ const Skills = () => {
   return (
     <div
       name="Skills"
-      className="w-full h-screen bg-gradient-to-b from-black via-black bg-[#7c9da6]"
+      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-900 flex justify-center items-center py-16"
     >
-      <div className="max-w-screen-xl mx-auto flex flex-col justify-center w-full h-full text-white">
-        <div className="mt-40"> {/* Adjust title position */}
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center text-white">
+        <div className="mt-20">
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Skills
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-12 px-8 py-12 mt-10 sm:px-0">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 px-8 py-16 mt-10">
           {skill.map(({ id, src, title, style }) => (
             <div
               key={id}
-              className={`flex flex-col items-center justify-center w-40 h-40 shadow-md hover:scale-110 duration-500 rounded-sm ${style}`}
+              className={`flex flex-col items-center justify-center w-40 h-40 shadow-lg hover:scale-110 duration-300 rounded-lg ${style}`}
             >
               <img
                 src={src}
@@ -40,7 +40,7 @@ const Skills = () => {
                 className="w-20 h-20"
                 style={{ backgroundColor: "black" }}
               />
-              <p className="mt-4 text-center text-white">{title}</p>
+              <p className="mt-4 text-center text-white font-semibold">{title}</p>
             </div>
           ))}
         </div>
