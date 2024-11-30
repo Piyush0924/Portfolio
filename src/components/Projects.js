@@ -5,7 +5,7 @@ const projectData = [
   {
     id: 1,
     // 
-    src:"/ecommerce.png",
+    src:"/cryptofrontdashboard.png",
     l: "https://github.com/Piyush0924/cryptofrontdashboard",
     href: "https://cryptofrontdashboard.vercel.app/",
     details: "This is a Crypto currency dashboard project that shows price charts, calculates exchange rates, and displays a list of top cryptocurrencies according to their market cap. It is created with React and Redux JavaScript libraries, styled components, and utilizes CoinGecko's API for information.",
@@ -28,7 +28,7 @@ const projectData = [
   }, 
   {
     id: 4,
-    src:"/E-commerce",
+    src:"/ecommerce",
     l: "https://github.com/Piyush0924/E-commerce",
     href: "https:e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app",
     details: "The E-commerce Dashboard is a user-friendly platform created to make online shopping easier and more efficient. It provides a central place for customers to browse, search, and purchase products effortlessly. At the same time, it helps businesses display their products in an organized and attractive way, ensuring a seamless experience for both buyers and sellers.",
