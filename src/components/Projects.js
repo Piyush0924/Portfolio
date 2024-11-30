@@ -29,9 +29,9 @@ const projectData = [
   {
     id: 4,
     src:"/E-commerce",
-    l: "https://github.com/sumit-nagrikar/cinebuzz.git",
-    href: "https://cinebuzzz.netlify.app/",
-    details: "Our project, CineBuzz, addresses these issues by providing a modern, user-friendly platform where users can easily browse movies, check showtimes, and book tickets online.",
+    l: "https://github.com/Piyush0924/E-commerce",
+    href: "https:e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app",
+    details: "The E-commerce Dashboard is a user-friendly platform created to make online shopping easier and more efficient. It provides a central place for customers to browse, search, and purchase products effortlessly. At the same time, it helps businesses display their products in an organized and attractive way, ensuring a seamless experience for both buyers and sellers.",
   },
  
 ];
