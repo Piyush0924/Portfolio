@@ -26,7 +26,7 @@ const Home = () => {
           <div className="flex flex-col items-center">
             {/* Resume download link */}
             <a
-              href="https://drive.google.com/file/d/12vr61MLtMdCzPTN9cUpN8NvfatD9CPpQ/view?usp=sharing" // Replace with your hosted link
+              href="https://drive.google.com/file/d/12vr61MLtMdCzPTN9cUpN8NvfatD9CPpQ/view?usp=sharing" 
               target="_blank"
               rel="noopener noreferrer"
               className="group text-white w-fit my-2 px-4 py-3 mx-auto flex items-center rounded-md bg-gradient-to-r from-gray-900 to-black hover:scale-125 duration-200"
