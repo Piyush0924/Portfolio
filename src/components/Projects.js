@@ -77,16 +77,16 @@ const Projects = () => {
               ) : (
                 <div className="flex flex-col items-center">
                   <img src={src} alt="" className="w-full h-48 object-cover" />
-                  <div className="p-4">
+                  <div className="p-4 flex justify-between w-full">
                     <a
                       href={href}
-                      className="px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+                      className="px-6 py-2 bg-gradient-to-r from-gray-500 to-black text-white rounded-md transform hover:scale-125 transition duration-200 hover:bg-gray-900"
                     >
                       View
                     </a>
                     <button
                       onClick={() => handleProjectClick(details)}
-                      className="mt-2 px-6 py-2 bg-gray-700 text-white rounded hover:bg-gray-600"
+                      className="px-6 py-2 bg-gradient-to-r from-gray-500 to-black text-white rounded-md transform hover:scale-125 transition duration-200 hover:bg-gray-900"
                     >
                       Details
                     </button>
