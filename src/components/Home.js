@@ -1,7 +1,9 @@
 import React from "react";
 import { MdDownloadForOffline } from "react-icons/md";
-import { TypeWriter } from "./TypeWriter"; 
+import { TypeWriter } from "./TypeWriter";
 import SocialLinks from "./SocialLinks";
+import { Link } from "react-router-dom"; // For internal navigation
+
 const Home = () => {
   return (
     <div
@@ -10,23 +12,24 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-        <img
-          src="/photo.jpg" 
-          alt="Profile"
-          className="w-40 h-40 border-2 border-white"
-        />
+          <img
+            src="/photo.jpg"
+            alt="Profile"
+            className="w-40 h-40 border-2 border-white"
+          />
           <h2 className="text-4xl sm:text-7xl font-semibold text-white my-4">
             I'm a Full Stack Web Developer (MERN)
           </h2>
           <p className="text-3xl font-medium text-white my-4">
             <TypeWriter text="Your meeting with Piyush's Portfolio" delay={90} />
           </p>
-          <div>
+          <div className="flex flex-col items-center">
+            {/* Resume download link */}
             <a
-              href={process.env.PUBLIC_URL + '/piyush.pdf'}
+              href="https://drive.google.com/file/d/12vr61MLtMdCzPTN9cUpN8NvfatD9CPpQ/view?usp=sharing" // Replace with your hosted link
               target="_blank"
               rel="noopener noreferrer"
-              className="group text-white w-fit  my-2 px-4 py-3 mx-auto flex items-center rounded-md bg-gradient-to-r from-gray-900 to-black hover:scale-125 duration-200"
+              className="group text-white w-fit my-2 px-4 py-3 mx-auto flex items-center rounded-md bg-gradient-to-r from-gray-900 to-black hover:scale-125 duration-200"
             >
               Resume
               <span className="ml-2">
@@ -34,7 +37,39 @@ const Home = () => {
               </span>
             </a>
           </div>
-          <SocialLinks /> {/* Include SocialLinks component here */}
+
+          {/* Navigation Links */}
+          <div className="mt-6">
+            <ul className="flex flex-col gap-4 text-lg">
+              <li>
+                <Link
+                  to="/about"
+                  className="hover:text-gray-300 duration-200"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/projects"
+                  className="hover:text-gray-300 duration-200"
+                >
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  className="hover:text-gray-300 duration-200"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <SocialLinks />
         </div>
       </div>
     </div>
