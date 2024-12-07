@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from "./components/Home";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import About from './components/About';
-import Footer from "./components/Footer";
+import Navbar from './components/Navbar.js';
+import Home from "./components/Home.jsx";
+import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import About from './components/About.jsx';
+import Footer from "./components/Footer.jsx";
 function App() {
   return (
     <div className="App">

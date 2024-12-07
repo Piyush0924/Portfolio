@@ -52,7 +52,7 @@ const Home = () => {
                   to="/about"
                   className="hover:text-gray-300 duration-200"
                 >
-                  About
+                
                 </Link>
               </li>
               <li>
@@ -60,7 +60,7 @@ const Home = () => {
                   to="/projects"
                   className="hover:text-gray-300 duration-200"
                 >
-                  Projects
+                  
                 </Link>
               </li>
               <li>
@@ -68,7 +68,7 @@ const Home = () => {
                   to="/contact"
                   className="hover:text-gray-300 duration-200"
                 >
-                  Contact
+                  
                 </Link>
               </li>
             </ul>
