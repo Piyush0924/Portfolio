@@ -5,6 +5,14 @@ import SocialLinks from "./SocialLinks";
 import { Link } from "react-router-dom"; // For internal navigation
 
 const Home = () => {
+  const handleResumeDownload = () => {
+    window.open(
+      "https://drive.google.com/file/d/1JcwNzqYTiMr5diWXGK22q7dpEGqmBm2X/view?usp=sharing",
+      "_blank",
+      "noopener,noreferrer"
+    );
+  };
+
   return (
     <div
       name="Home"
@@ -24,18 +32,16 @@ const Home = () => {
             <TypeWriter text="Your meeting with Piyush's Portfolio" delay={90} />
           </p>
           <div className="flex flex-col items-center">
-            {/* Resume download link */}
-            <a
-              href="https://drive.google.com/file/d/12vr61MLtMdCzPTN9cUpN8NvfatD9CPpQ/view?usp=sharing" 
-              target="_blank"
-              rel="noopener noreferrer"
+            {/* Resume download button */}
+            <button
+              onClick={handleResumeDownload}
               className="group text-white w-fit my-2 px-4 py-3 mx-auto flex items-center rounded-md bg-gradient-to-r from-gray-900 to-black hover:scale-125 duration-200"
             >
               Resume
               <span className="ml-2">
                 <MdDownloadForOffline size={20} />
               </span>
-            </a>
+            </button>
           </div>
 
           {/* Navigation Links */}
