@@ -33,11 +33,11 @@ const projectData = [
     details:
       "The E-commerce Dashboard is a user-friendly platform created to make online shopping easier and more efficient. It provides a central place for customers to browse, search, and purchase products effortlessly.",
   },
-  {id:5,
+  { id:5,
     src:"/Blog_App.png",
     l:"https://github.com/Piyush0924/Blog_App_Unified_Mentor",
     href:"https://blog-app-4iix.vercel.app",
-    details:"a dynamic blog application using Next.js, featuring server-side rendering for improved performance and a seamless user experience. The app includes CRUD functionality, responsive design with Tailwind CSS, and API integration for fetching and managing content efficiently."
+    details:"a dynamic blog application using Next.js, featuring server-side rendering for improved performance and a seamless user experience. The app includes CRUD functionality, responsive design with Tailwind CSS, and API integration for fetching and managing content efficiently.",
   }
 
 ];
