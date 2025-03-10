@@ -29,7 +29,7 @@ const projectData = [
     id: 4,
     src: "/ecommerce.png",
     l: "https://github.com/Piyush0924/E-commerce",
-    href: "https://e-commerce-git-main-piyushs-projects-c005e3cc.vercel.app",
+    href: "https://kart-e-commerce.vercel.app/",
     details:
       "The E-commerce Dashboard is a user-friendly platform created to make online shopping easier and more efficient. It provides a central place for customers to browse, search, and purchase products effortlessly.",
   },
